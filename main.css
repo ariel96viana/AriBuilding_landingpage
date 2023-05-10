@@ -1,0 +1,126 @@
+header {
+  background-color: #d0c434;
+}
+
+#cabecalho .nav .nav-link,
+.title-text,
+.bi-bricks {
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #1f1f1f;
+  color: #d0c434;
+}
+
+.carousel-background {
+  background-color: #1f1f1f;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  align-items: center;
+  max-width: 950px;
+}
+.carousel.slide {
+  margin: 0 auto;
+  height: 650px;
+  width: auto;
+}
+.carousel.slide img {
+  height: 650px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #d0c434;
+}
+.section-text {
+  color: #ccc;
+}
+
+.section-subtitle {
+  color: #d0c434;
+}
+
+#constructions {
+  background-color: #b06c0c;
+}
+
+#materials {
+  background-color: #d0c434;
+}
+
+#materials .section-title {
+  color: #1f1f1f;
+}
+
+#materials .nav .nav-link {
+  color: #1f1f1f;
+}
+
+#materials .nav .nav-link.active {
+  background-color: #b06c0c;
+  color: #1f1f1f;
+}
+
+form .form-label {
+  color: #ccc;
+}
+
+form .form-control {
+  max-width: 70%;
+  background-color: #b06c0c;
+}
+
+form .form-control:focus {
+  background-color: #ccc;
+  border-color: #d0c434;
+}
+
+form .btn {
+  background-color: #b06c0c;
+  color: #ccc;
+}
+form .btn:hover {
+  border: 2px solid #d0c434;
+  color: #d0c434;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+@media screen and (max-width: 990px) {
+  .carousel.slide {
+    width: 600px;
+    height: 450px;
+  }
+  .carousel.slide img {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .carousel.slide {
+    width: 400px;
+    height: 300px;
+  }
+  .carousel.slide img {
+    width: 400;
+    height: 300px;
+  }
+}
+
+.my-error-class {
+  color: #d0c434;
+}

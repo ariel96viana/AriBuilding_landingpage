@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ari Buildings</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+      <div class="container">
+        <h1 class="title-text">Ari Buildings</h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span>
+            <i class="bi bi-bricks"></i>
+          </span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold">
+              <a href="#about" class="nav-link">
+                <i class="bi bi-house-door"></i>
+                Sobre Nós
+              </a>
+              <li class="nav-item fw-bold">
+              <a href="#constructions" class="nav-link">
+                <i class="bi bi-building"></i>
+                Tipos de construções
+              </a>
+            </li>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#materials" class="nav-link">
+                <i class="bi bi-hammer"></i>
+                Materiais
+              </a>
+            </li>
+            
+            <li class="nav-item fw-bold">
+              <a href="#contact" class="nav-link">
+                <i class="bi bi-telephone"></i>
+                Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div
+      class="carousel-background"
+      data-bs-spy="scroll"
+      data-bs-target="#cabecalho"
+      data-bs-smooth-scroll="true"
+    >
+      <section class="carousel-container pt-5 pb-5" id="about">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="./images/Carousel/construction-gcb006e9ae_1920.jpg"
+                alt="Starting a big construction"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="./images/Carousel/scaffold-g8a2299df8_1920.jpg"
+                alt="A team repairing a house"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="./images/Carousel/tools-g1ce8c75fe_1920.jpg"
+                alt="Some construction tools"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <img
+                  src="./images/OurFactory.jpg"
+                  alt="A picture of our factory"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="col-md-6 mt-md-0">
+                <h2 class="section-title">Sobre nossa Empresa</h2>
+                <p class="section-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Accusamus, quos?Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Eligendi eaque inventore corrupti, tenetur
+                  
+                <h3 class="section-subtitle">
+                    Nossos serviços
+                </h3>
+                <p class="section-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime suscipit eveniet sequi, saepe optio harum!</p>
+
+                </p>
+                <ul>
+                    <li class="section-text">Empreitada</li>
+                <li class="section-text">Venda de materiais de construção</li>
+            </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="constructions" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mt-3 mb-5">Tipos de construção</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <img src="./images/constructions/home.jpg" class="d-block w-100 h-75 rounded mb-2" alt="A worker in front of an house">
+                    <h3 class="section-title">Contruímos Casas</h3>
+                    <p class="section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita atque sequi vel maxime, quia qui provident dolorem consectetur obcaecati deserunt.</p>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <img src="./images/constructions/building.jpg" class="d-block w-100 h-75 rounded mb-2" alt="An big building">
+                    <h3 class="section-title">Contruímos Prédios</h3>
+                    <p class="section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita atque sequi vel maxime, quia qui provident dolorem consectetur obcaecati deserunt.</p>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <img src="./images/constructions/brick-home.jpg" class="d-block w-100 h-75 rounded mb-2" alt="A brick house">
+                    <h3 class="section-title">Quer sejam de Tijolos</h3>
+                    <p class="section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita atque sequi vel maxime, quia qui provident dolorem consectetur obcaecati deserunt.</p>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <img src="./images/constructions/wood-house.jpg" class="d-block w-100 h-75 rounded mb-2" alt="A wood house">
+                    <h3 class="section-title">Quer sejam de madeira</h3>
+                    <p class="section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita atque sequi vel maxime, quia qui provident dolorem consectetur obcaecati deserunt.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="materials" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mt-3 mb-5">Nossos materiais</h2>
+            </div>
+            <div class="row">
+                <aside class=''>
+                    <nav class="nav nav-tabs nav-materials mb-3">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#brick" aria-current="page" class="fw-bold text-start nav-link active">Tijolos</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#wood" class="fw-bold text-start nav-link ">Madeiras</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cement" class="fw-bold text-start nav-link ">Cimentos</button>
+                    </nav>
+                </aside>
+                <div>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="brick">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/light-brick.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Tijolo Claro</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/normal-brick.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Tijolo Normal</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/dark-brick.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Tijolo Escuro</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="wood">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/light-wood.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Madeira Clara</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/normal-wood.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Madeira Normal</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/dark-wood.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Madeira Escura</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="cement">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/light-cement.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Cimento Claro</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/normal-cement.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Cimento Normal</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="./images/Materials/dark-cement.jpg" class="d-block w-100" alt="">
+                                    <h5 class="fw-bold section-title">Cimento Escuro</h5>
+                                    <p class="section-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusantium!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="contact" class="pt-5">
+        <div class="container">
+            <div class="row mb-4">
+                <h2 class="section-title text-center">
+                    Entre em contato
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold">Seu nome</label>
+                            <input type="text" id="name" class="form-control" name="inputName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label fw-bold">Seu telefone</label>
+                            <input type="tel" id="phone" class="form-control" name="inputPhone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" name="inputEmail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label fw-bold">Descreva seu motivo de contato</label>
+                            <textarea name="message" class="form-control" id="message" name="inputMessage" required></textarea>
+                        </div>
+                        <button class="btn fw-bold" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                      <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-person-lines-fill"></i>
+                        Redes sociais
+                      </h3>
+                      <ul class="social-links">
+                        <li class="fs-3">
+                          <a href="https://www.linkedin.com/in/ariel-oliveira-2a620620b/" target="_blank">
+                            <i class="bi bi-linkedin text-colored"></i>
+                          </a>
+                        </li>
+                        <li class="fs-3 ms-1 me-1">
+                          <a href="https://github.com/ariel96viana" target="_blank">
+                            <i class="bi bi-github text-colored"></i>
+                          </a>
+                        </li>
+                        <li class="fs-3">
+                          <a href="https://wa.me/992581135" target="_blank">
+                            <i class="bi bi-whatsapp text-colored"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="row mt-4">
+                      <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereço
+                      </h3>
+                      <p class="section-text">
+                        Rua Ariel Oliveira, nº 1337, Bairro do Home Office - Planalto/RS
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+      </section>
+    </div>
+
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
